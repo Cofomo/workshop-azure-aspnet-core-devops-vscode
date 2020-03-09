@@ -13,12 +13,11 @@ des utilisateurs. L'application sera ensuite déployée sur Azure App Service.
 
 ## <a name="prerequisites"></a>Prérequis
 
-Pour effectuer ce laboratoire, vous devez installer <a href="https://www.visualstudio.com/downloads/" target="_blank">Visual Studio 2019</a> avec la charge de travail **Développement web et ASP.NET**.
+Pour effectuer ce laboratoire, vous devez installer :
 
-Si vous avez déjà installé Visual Studio 2019 :
-
-- Installez les dernières mises à jour dans Visual Studio en sélectionnant **Aide** > **Rechercher les mises à jour**.
-- Ajoutez la charge de travail en sélectionnant **Outils** > **Obtenir des outils et des fonctionnalités**.
+- <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+- <a href="https://dotnet.microsoft.com/download/dotnet-core/3.1">Le SDK .NET Core 3.1</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice">L'extension Azure App Service</a>
 
 ## Cloner le dépôt
 
