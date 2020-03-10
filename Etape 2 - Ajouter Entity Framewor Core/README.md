@@ -192,17 +192,16 @@ Un fichier **localdb.db** sera ajouté à votre projet :
  ##  CRUD avec Entity Framework Core 
 
  Nous allons maintenant générer le contrôleur, les vues et les méthodes d'action pour créer, lister, modifier et supprimer des commentaires dans la base 
- de données en utilisant Entity Framework Core. Pour cela :
+ de données en utilisant Entity Framework Core. Pour cela, vous devez exécuter la commande suivante dans le terminal.
 
- 1. Vous devez exécuter la commande suivante dans le terminal.
+```
+dotnet aspnet-codegenerator controller -name CommentairesController -m Commentaire -dc WebAppContext -outDir Controllers -udl -scripts
+```
 
-  ![Ajout contrôleur](./media/mvc-controller2.PNG)
-
- 7. Cliquez ensuite sur **Ajouter**.
 
  Le contrôleur **CommentairesController** sera créé avec les méthodes d'action pour le CRUD. Les vues correspondantes seront également créées.
  
-   ![Fichiers creés](./media/files-created.PNG)
+   ![Fichiers creés](./media/filescreated.PNG)
 
 ## Executer le projet
 
