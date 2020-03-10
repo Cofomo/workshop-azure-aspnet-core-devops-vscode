@@ -11,11 +11,11 @@ en utilisant Entity Framework Core.
 
 ## <a name="open-web-site">Ouvrir le projet de démarrage</a>
 
-1. Ouvrez Visual Studio, puis sélectionnez **Ouvrir un projet ou une solution**.
+Accedez au projet de démarrage en effectuant les étapes suivantes :
 
- ![Ouverture projet](./media/open-project.PNG)
+1. Ouvrez Visual Studio Code, puis sélectionnez **Fichier/Ouvrir le dossier**.
 
-2. Ouvrez la solution de l'étape 2 (\Etape 2 - Ajouter Entity Framewor Core\Workshop\Workshop.sln).
+2. Selectionnez le dossier  (\Etape 2 - Ajout Entity Framework core\Workshop\WebApp).
 
 3. Supprimer le fichier **CommentairesController.cs** dans le dossier **Controllers**.
 
@@ -126,16 +126,14 @@ Editez le fichier appsettings.json, et ajoutez la chaine de la connexion :
 
 ## <a name="install-efcore-sqlite">Installer le package Entity Framework Core pour SQLite</a>
 
-A ce stade, nous allons utiliser la console du gestionnaire de package NuGet pour installer le package **Microsoft.EntityFrameworkCore.Sqlite**.
+A ce stade, nous allons utiliser le terminal pour installer le package **Microsoft.EntityFrameworkCore.Sqlite**.
 
 
-1. Cliquez sur le menu **Outils**, puis sur **Gestionnaire de package NuGet** et enfin sur **Console du gestionnaire de package**.
+1. Cliquez sur **Terminal** dans le menu, puis sur **Nouveau terminal**..
 
- ![Ouverture projet](./media/add-package.png)
+ 2. Saisisez la commande **dotnet add package Microsoft.EntityFrameworkCore.Sqlite** dans le terminal.
 
- 2. Saisisez la commande **Install-Package Microsoft.EntityFrameworkCore.Sqlite** dans la console du gestionnaire de package.
-
-  ![Console NuGet](./media/nuget-console.PNG)
+  ![Console NuGet](./media/console.PNG)
 
 
 ## Enregistrer le DBContext avec l'injection de dépendances
@@ -178,37 +176,25 @@ Nous sommes prêts! Nous pouvons désormais accéder à notre base de données �
 pas encore créé notre base de données avec les tables correspondantes. Nous n'avons pas besoin de le faire manuellement. Nous pouvons utiliser 
 la fonctionnalité de migration des outils Entity Framework Core pour générer et mettre à jour base de données.
 
-Accédez à la **Console du gestionnaire de package** et saisissez la commande **Add-Migration InitialMigration**.
+Accédez au **Terminal** et saisissez la commande **dotnet ef migrations add InitialMigration**.
 
 Le dossier **Migrations** sera créé à la racine de votre projet  :
 
- ![Console NuGet](./media/migration.PNG)
+ ![Console NuGet](./media/add-migration.PNG)
 
-Pour créer/mettre à jour la base de données, vous devez exécuter la commande **Update-Database**.
+Pour créer/mettre à jour la base de données, vous devez exécuter la commande **dotnet ef database update**.
 
 Un fichier **localdb.db** sera ajouté à votre projet :
 
- ![Console NuGet](./media/db-create.PNG)
+ ![Console NuGet](./media/createdb.PNG)
 
 
  ##  CRUD avec Entity Framework Core 
 
- Nous allons maintenant le générer le contrôleur, les vues et les méthodes d'action pour créer, lister, modifier et supprimer des commentaires dans la base 
+ Nous allons maintenant générer le contrôleur, les vues et les méthodes d'action pour créer, lister, modifier et supprimer des commentaires dans la base 
  de données en utilisant Entity Framework Core. Pour cela :
 
- 1. Faites un clic droit sur le dossier **Controllers** dans l'explorateur de solution.
-
- 2. Sélectionnez **Ajouter**, puis **Controller**.
-
- 3. Dans la fenêtre qui va s'afficher, sélectionnez **Contrôleur MVC avec vues, utilisant Entity Framework**.
-
- ![Ajout contrôleur](./media/mvc-controller.PNG)
-
- 4. Cliquez sur **Ajouter**. La fenêtre **Ajouter Contrôleur MVC** va s'afficher. 
-
- 5. Dans la zone **Classe de modèle**, déroulez et sélectionnez **Commentaire**.
- 
- 6. Dans la zone **Classe de contexte de données**, sélectionnez **WebAppContext**.
+ 1. Vous devez exécuter la commande suivante dans le terminal.
 
   ![Ajout contrôleur](./media/mvc-controller2.PNG)
 
