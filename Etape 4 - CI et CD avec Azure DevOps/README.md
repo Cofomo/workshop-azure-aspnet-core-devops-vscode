@@ -32,8 +32,6 @@ Copiez le lien dans la zone **Clone to your computer**
 
 Ouvrez l'invite de commande à partir du répertoire **workshop-azure-aspnet-core-devops**.
 
-> Le moyen le plus simple de le faire avec Visual Studio est d'aller sur **Team Explorer**, puis cliquer sur **Modifications**, ensuite sur **Actions** et enfin sur **Ouvrir l'invite de commandes**.
-
 Exécutez ensuite la commande :
 
 ```
