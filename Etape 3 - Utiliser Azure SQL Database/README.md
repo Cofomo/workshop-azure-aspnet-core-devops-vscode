@@ -76,11 +76,9 @@ Pour mettre en place les règles de pare-feu :
 
 ### Ouvrir le projet de démarrage</a>
 
-1. Ouvrez Visual Studio, puis sélectionnez **Ouvrir un projet ou une solution**.
+1. Ouvrez Visual Studio Code, puis sélectionnez Fichier/Ouvrir le dossier.
 
- ![Ouverture projet](./media/open-project.png)
-
-2. Ouvrez la solution de l'étape 3 (\Etape 3 - Utiliser Azure SQL Database\Workshop\Workshop.sln).
+2. Selectionnez le dossier de l'étape 3 (\Etape 3 - Utiliser Azure SQL Database\Workshop\Workshop\WebApp).
 
 ### Modifier les fichiers de Migration
 
@@ -233,14 +231,21 @@ En environnement de production, la chaine de connexion **AzureConnection** sera 
 
 ### Déployer l'application
 
-1. Revenez dans Visual Studio et faites un clic droit sur votre projet Web. 
+1. Revenez dans Visual Studio Code. 
 
-2. Cliquez sur **Publier**.
+2. Cliquez sur l'icône d'Azure dans le menu de gauche.
 
-3. Dans la fenêtre de publication qui va s'afficher, validez que vous êtes sur le bon profil de publication, puis cliquez sur **Publier**.
-![Publication application](./media/publish.PNG)
+3. Cliquez sur le bouton **Deploy to Web App...**.
 
-Une fois le déploiement terminé, votre application sera affichée dans une nouvelle fenêtre du navigateur.
+![Paramètres d'application](./media/deploy-webapp.png)
+
+4. Sélectionnez votre abonnement Azure.
+
+5. Selectionnez dans la liste votre Web App.
+
+6. Cliquez sur **Deploy** lorsque la notification va s'afficher.
+
+Une fois le déploiement terminé, ouvrez votre application dans le navigateur en cliquant sur **Browse WebSite** dans la fenêtre des notifications.
 
 ## Editeur de requêtes
 
