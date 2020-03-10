@@ -237,7 +237,7 @@ En environnement de production, la chaine de connexion **AzureConnection** sera 
 
 3. Cliquez sur le bouton **Deploy to Web App...**.
 
-![Paramètres d'application](.media/deploy-webapp.png)
+![Paramètres d'application](./media/deploy-webapp.png)
 
 4. Sélectionnez votre abonnement Azure.
 
