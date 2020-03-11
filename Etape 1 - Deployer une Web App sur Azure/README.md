@@ -18,7 +18,7 @@ Pour effectuer ce laboratoire, vous devez installer :
 - <a href="https://code.visualstudio.com/">Visual Studio Code</a>
 - <a href="https://dotnet.microsoft.com/download/dotnet-core/3.1">Le SDK .NET Core 3.1</a>
 - <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice">L'extension Azure App Service</a>
--<a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp">L'extension C# pour Visual Studio Code</a>
+- <a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp">L'extension C# pour Visual Studio Code</a>
 
 Vous devez également installer les outils **aspnet-codegenerator** et  **Entity Framework**. Pour cela, ouvrez l'invite de commande et exécutez la commande 
 
