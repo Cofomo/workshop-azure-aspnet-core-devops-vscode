@@ -87,14 +87,14 @@ Les fichiers de migrations qui ont été générés à l'étape 2 permettent de 
 Editez le fichier **Migrations/xxxx_InitialMigration.cs** et remplacez le code suivant :
 
 ```cs
-ID = table.Column<int>(nullable: false)
+Id = table.Column<int>(nullable: false)
       .Annotation("Sqlite:Autoincrement", true),
 ```
 
 Par 
 
 ```cs
-ID = table.Column<int>(nullable: false)
+Id = table.Column<int>(nullable: false)
       .Annotation("SqlServer:Identity", "1, 1")
       .Annotation("Sqlite:Autoincrement", true),
 ```
