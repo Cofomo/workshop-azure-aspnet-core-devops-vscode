@@ -185,7 +185,7 @@ Remplacez son contenu par :
 
 En environnement de production, la chaine de connexion **AzureConnection** sera utilisée pour se connecter à la base de données de production (Azure SQL Database). Nous devons modifier les paramètres de l'application Web Azure pour ajouter la variable d'environnement (**ASPNETCORE_ENVIRONMENT**) Production et la chaine de connexion.
 
-Il faut noter que Azure recherche d'abord un paramètre dans le paramètres de configuration de App Service, avant de le rechercher dans le fichier ***appsettings.json***.
+Il faut noter que Azure recherche d'abord un paramètre dans les paramètres de configuration de App Service, avant de le rechercher dans le fichier ***appsettings.json***.
 
 ### Ajout de la variable d'environnement et la chaine de connexion dans l'application Web
 
