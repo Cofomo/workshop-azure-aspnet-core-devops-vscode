@@ -126,7 +126,7 @@ namespace WebApp.Controllers
 
 ### La vue
 
-Nous utiliser le générateur ASP.NET pour générer la vue. Pour cela : 
+Nous allons utiliser le générateur ASP.NET pour générer la vue. Pour cela : 
 
 1. Cliquez sur **Terminal** dans le menu, puis sur **Nouveau terminal**.
 
