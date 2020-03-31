@@ -43,7 +43,7 @@ Pour cela, créez un dossier LabCEM sur votre poste. Ouvrez l'invite de commande
  Exécutez ensuite la commande suivante :
 
 ```
-git clone https://github.com/hinault/workshop-azure-aspnet-core-devops.git
+git clone https://github.com/hinault/workshop-azure-aspnet-core-devops-vscode.git
 ```
  
 ## <a name="open-website"></a> Ouvrir le projet de démarrage
