@@ -40,7 +40,12 @@ Pour cette troisième partie du laboratoire, les participants vont créer une ba
       > Mémorisez votre nom d’utilisateur et mot de passe de connexion d’administrateur au serveur, car vous en aurez besoin pour vous connecter au serveur et aux bases de données dans le cadre de ce laboratoire.
 
    - **Vous souhaitez utiliser un pool élastique SQL ?**  : sélectionnez l’option **Non**.
-  
+ 
+   - **Calcul + Stockage** : cliquez sur **Configurer la base données**. 
+      - Dans la fenêtre qui va s'afficher, cliquez sur **Vous recherchez l'édition de Base, Standard, Premiun**.
+      - Cliquez ensuite sur l'onglet **De base**. Puis cliquez sur **Appliquer**.
+      
+      ![Calcul](./media/change-pricing.png)
 
 7. Laissez le reste des valeurs par défaut, puis sélectionnez **Vérifier + créer** en bas du formulaire.
 
